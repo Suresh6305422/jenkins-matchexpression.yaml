@@ -19,7 +19,8 @@ spec:
   template:
     metadata:
       labels:
-        name: jenkins
+        app: jenkins
+        release: v1.1
     spec:
       containers:
         - image: jenkins/jenkins
